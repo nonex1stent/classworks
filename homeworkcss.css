@@ -1,0 +1,12 @@
+@media screen and (max-width: 1300px) {
+    .flex-container-main{
+    background: firebrick;
+    }
+
+}
+@media screen and (min-height: 500px) {
+    .flex-container-main{
+        background: forestgreen;
+    }
+
+}
