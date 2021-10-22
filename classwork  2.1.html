@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Class Work</title>
+    <style>
+        .flex-container-main {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+        .flex-container-main-first {
+            padding: 20px;
+        }
+        .flex-container-main-first-border {
+            border: solid 3px;
+            border-radius: 50px;
+            border-color: white;
+        }
+        .flex-container {
+            display: flex;
+            flex-directection: column;
+            border-radius: inherit;
+        }
+        .flex-item {
+            text-align:center;
+            font-size: 1em;
+            color: white;
+            opacity: 0.8;
+            flex: 1;
+            height: 300px;
+            padding: 20px;
+            border-radius: inherit;
+        }
+        .flex-item-text {
+            text-align:center;
+            font-size: 1em;
+            padding: 1.5em;
+            color: white;
+            opacity: 0.8;
+            flex: 1;
+            border-radius: inherit;
+        }
+        .flex-column-container{
+            display:flex;
+            flex-direction:column;
+            height:inherit;
+        }
+        .flex-column-item1{
+            flex: 1;
+            flex-basis:200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flex-column-item2{
+            flex: 1;
+            text-align:center;
+            max-width: initial;
+            max-height: initial;
+        }
+        h1{
+            margin:0;
+            overflow:hidden;
+        }
+        .square{
+            width: 100%;
+            height:200px;
+            background-color: white;
+            border:20px;
+            border-radius:15px;
+        }
+        .circle{
+            width:200px;
+            height:200px;
+            background-color: white;
+            border-radius:50%;
+        }
+        .color1{background-color: black;}
+    </style>
+</head>
+<body>
+<div class="flex-container-main">
+    <div class="flex-container-main-first">
+        <div class="flex-container-main-first-border">
+            <div class="flex-container flex-container-text">
+                <div class="flex-item-text color1"><h1>lorem ipsum</h1></div>
+            </div>
+            <div class="flex-container flex-container-squares">
+                <div class="flex-item color1">
+                    <div class="flex-column-container" style="margin-left:20%;">
+                        <div class="flex-column-item1"><div class="square"></div></div>
+                        <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                    </div>
+                </div>
+                <div class="flex-item color1">
+                    <div class="flex-column-container" style="margin-left:15%; margin-right:5%;">
+                        <div class="flex-column-item1"><div class="square"></div></div>
+                        <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                    </div>
+                </div>
+                <div class="flex-item color1">
+                    <div class="flex-column-container" style="margin-right:15%; margin-left:5%;">
+                        <div class="flex-column-item1"><div class="square"></div></div>
+                        <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                    </div>
+                </div>
+                <div class="flex-item color1">
+                    <div class="flex-column-container" style="margin-right:20%;">
+                        <div class="flex-column-item1"><div class="square"></div></div>
+                        <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-container-main-second">
+        <div class="flex-container flex-container-circles">
+            <div class="flex-item color1">
+                <div class="flex-column-container">
+                    <div class="flex-column-item1"><div class="circle"></div></div>
+                    <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                </div>
+            </div>
+            <div class="flex-item color1">
+                <div class="flex-column-container" style="border: solid 3px; border-color: white;">
+                    <div class="flex-column-item1"><div class="circle"></div></div>
+                    <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                </div>
+            </div>
+            <div class="flex-item color1">
+                <div class="flex-column-container">
+                    <div class="flex-column-item1"><div class="circle"></div></div>
+                    <div class="flex-column-item2"><h1>lorem ipsum</h1></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
