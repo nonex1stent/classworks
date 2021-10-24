@@ -1,12 +1,40 @@
-@media screen and (max-width: 1300px) {
-    .flex-container-main{
-    background: firebrick;
+@media screen and (max-width: 800px) {
+    .flex-container-main {
+        background-color: forestgreen;
     }
-
 }
-@media screen and (min-height: 500px) {
-    .flex-container-main{
-        background: forestgreen;
-    }
 
+@media screen and (max-width: 800px) {
+    .circle {
+        background-color: firebrick;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .square {
+        background-color: aquamarine;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flex-container-main-first-border {
+        background-color: crimson;
+        border-color: blue;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flex-item-text {
+        background-color: chocolate;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flex-item-text {
+        background-color: chocolate;
+        font-size: 1.5em;
+    }
 }
